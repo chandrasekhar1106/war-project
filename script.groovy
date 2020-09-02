@@ -1,4 +1,4 @@
 def packageApp() {
 	sh 'mvn package'
 }
-return then
+return this
