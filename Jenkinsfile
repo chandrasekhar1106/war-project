@@ -27,7 +27,7 @@ pipeline {
 		}
 		failure {
 			//Mail must send to respective person if build fails...
-			mail bcc: '', body: 'Sorry...Your Build is failed....', cc: '', from: '', replyTo: '', subject: 'Build Failure', to: 'sekharchandra2108@gmail.com'
+			mail bcc: '', body: 'Sorry....Your pipeline failed...', cc: '', from: 'chandraganimisetty@gmail.com', replyTo: 'sekharchandra2108@gmail.com', subject: 'Pipeline Failed ', to: 'sekharchandra2108@gmail.com'
 		}
 	}
 }
