@@ -20,7 +20,7 @@ pipeline {
 		stage("package") {
 			steps {
 				script {
-					gv.packageApp()
+					gv.package()
 				}
 			}
 		}
