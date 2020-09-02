@@ -17,7 +17,7 @@ pipeline {
 			}
 		}
 		
-		stage("package") {
+		stage("build") {
 			steps {
 				script {
 					gv.package()
